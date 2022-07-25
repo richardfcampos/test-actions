@@ -14,7 +14,5 @@ jobs:
                   php-version: 8.0
                   tools: composer:v2
                   coverage: none
-            - name: Copy vapor yml for deploy
-              run: cp vapor.eu-west-2.yml vapor.yml
             - name: workflow done
               run: echo "DONE!!!"
